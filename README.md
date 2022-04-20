@@ -10,5 +10,8 @@ Tämä on rikollisuus scripti jossa simeon antaa sinulle tehtävän, jossa haet 
 ## Asennus
 Laita jonnekkin resources kansioon ja laita "start se_carstealing" sun server.cfg kansioon
 
+## Vaatimukset
+ESX
+
 ## Huonoja asioita
 - Jos lähtee servulta vahinkossa ja ei ota rahoja niin menettää rahat
