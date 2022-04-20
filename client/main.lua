@@ -101,12 +101,12 @@ function returnCar()
 end
 
 Citizen.CreateThread(function()
-    scale = Config.Markers.scale
-    r, g, b = Config.Markers.color.r, Config.Markers.color.g, Config.Markers.color.b
+    local scale = Config.Markers.scale
+    local r, g, b = Config.Markers.color.r, Config.Markers.color.g, Config.Markers.color.b
     while true do
-        playerPed = PlayerPedId()
-        px, py, pz = table.unpack(GetEntityCoords(playerPed))
-        rx, ry, rz = table.unpack(Config.GetReward)
+        local playerPed = PlayerPedId()
+        local px, py, pz = table.unpack(GetEntityCoords(playerPed))
+        local rx, ry, rz = table.unpack(Config.GetReward)
         Citizen.Wait(4)
         if reward > 0 then
             if GetDistanceBetweenCoords(px, py, pz, rx, ry, rz, false) < 5 then
