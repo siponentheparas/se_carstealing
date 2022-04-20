@@ -8,7 +8,7 @@ Tämä on rikollisuus scripti jossa simeon antaa sinulle tehtävän, jossa haet 
 - Et voi aloittaa uutta tehtävää jos olet jo tehtävässä
 
 ## Asennus
-Laita jonnekkin resources kansioon ja laita "start se_carstealing" sun server.cfg kansioon
+Laita jonnekkin resources kansioon ja laita "start se_carstealing" sun server.cfg tiedostoon
 
 ## Vaatimukset
 ESX
